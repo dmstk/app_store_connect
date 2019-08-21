@@ -104,6 +104,11 @@
       "alias": "user_invitations",
       "http_method": "get",
       "url": "https://api.appstoreconnect.apple.com/v1/userInvitations"
+    },
+    {
+      "alias": "sales",
+      "http_method": "get",
+      "url": "https://api.appstoreconnect.apple.com/v1/salesReports?filter[reportType]=SALES&filter[reportSubType]=SUMMARY&filter[frequency]=DAILY&filter[vendorNumber]=88528174"
     }
   ],
   "Type": {
